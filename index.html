@@ -7,9 +7,11 @@
 </head>
 <body>
 
-<div>
+<div class="numberInput">
     <label for="participantCount">Enter number of participants:</label>
-    <input type="number" id="participantCount" min="1" max="100" oninput="generateInputs()">
+    <button onclick="decrement()">-</button>
+    <input type="text" id="participantCount" min="3" max="100" oninput="generateInputs()"/>
+    <button onclick="increment()">+</button>
 </div>
 
 <div id="inputContainer"></div>

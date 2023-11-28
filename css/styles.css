@@ -1,4 +1,23 @@
-.participant-input {
+.participantInput {
     margin-bottom: 10px;
     display: block;
+}
+
+.numberInput {
+    display: flex;
+    align-items: center;
+}
+
+.numberInput button {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.numberInput input[type="text"] {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 50px;
 }
